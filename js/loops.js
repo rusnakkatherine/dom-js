@@ -5,8 +5,27 @@
 //     console.log(fruits[i]);
 //  }
 var index = 0;
-do{
-    console.log(fruits[index]);
-    index ++;
+// do{
+//     console.log(fruits[index]);
+//     index ++;
+// }
+//     while(index<fruits.length);
+
+    // while loop
+// while(index<fruits.length){
+//     console.log(fruits[index]);
+//     index++;
+// }
+// &&: and
+// ||: or
+// !: not
+// for in
+fruits.foo = 'test';
+for(var i in fruits){
+    console.log(i);
 }
-    while(index<fruits.length);
+
+// for of
+for(var i of fruits){
+    console.log(i);
+}
